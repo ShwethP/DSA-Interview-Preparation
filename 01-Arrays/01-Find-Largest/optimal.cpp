@@ -7,7 +7,7 @@ int main() {
 
     int maximum = INT_MIN;
 
-    for (int i =0; i<arr.size(); i++) {
+    for (int i =0; i<arr.size()-1; i++) {
         if (arr[i] > maximum) {
             maximum = arr[i];
         }

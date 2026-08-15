@@ -37,3 +37,33 @@ When target is found:
 ```cpp
 answer = mid;
 right = mid - 1;
+
+# Last Occurrence in Sorted Array
+
+## Problem
+
+Given a sorted array containing duplicates, find the index of the last occurrence of a target.
+
+Example:
+
+[1,2,2,2,4,4,4,5,7]
+
+target = 4
+
+Output:
+6
+
+---
+
+## Approach
+
+Use Binary Search.
+
+When the target is found:
+
+1. Store mid as a possible answer.
+2. Continue searching to the RIGHT because another occurrence may exist there.
+
+```cpp
+ans = mid;
+left = mid + 1;

@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int indextoInsert(const vector<int> &a, int k){
+int lowerbound(const vector<int> &a, int k){
     int l = 0, r = a.size() - 1;
     
     // FIX: Default to a.size() because if k is larger than all elements,
@@ -28,7 +28,7 @@ int main(){
     int k = 1001;
     
     // Now correctly outputs 5
-    cout << indextoInsert(a, k) << endl; 
+    cout << lowerbound(a, k) << endl; 
 
     return 0;
 }

@@ -12,7 +12,6 @@ int main(){
             b.push_back(a[i]);
         }
     }
-    
     for(int c : b){
         cout << c << endl;
     }

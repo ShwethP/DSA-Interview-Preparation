@@ -8,6 +8,8 @@ int main(){
 
     for(int j = 0; j < a.size(); j++) {
 
+        cout<< a[j] << " "<< a[i] << endl;
+
         if(a[j] != 0) {
            swap(a[i], a[j]);
            i++;

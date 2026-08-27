@@ -23,6 +23,8 @@ int longestCons(vector<int>& a) {
 
 }
 
+// Only start counting when num - 1 doesn't exist; then keep checking num + 1.
+
 int main() {
     vector<int> a = {100, 4, 200, 2, 11, 3, 20, 1};
     cout << "Longest sequence length: " << longestCons(a) << endl; // Outputs 4 (1, 2, 3, 4)

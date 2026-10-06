@@ -35,7 +35,5 @@ int main(){
     cout<< result <<endl; //4
 
     return 0;
-    // for(int a : result){
-    //     cout<< a <<endl;
-    // }
+    
 }

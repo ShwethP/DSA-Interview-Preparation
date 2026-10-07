@@ -2,7 +2,8 @@
 using namespace std;
 
 int atMost(vector<int> a, int k){
-    int count =0, left = 0;
+    if (k <= 0) return 0;
+    int count = 0, left = 0;
         int ones = 0;
 
 

@@ -16,6 +16,7 @@ int maxScore(vector<int> &a, int k)
 
     if (windowSize == 0)
         return totalSum;
+
     int minWindowSum = 0;
 
     for (int i = 0; i < windowSize; i++)

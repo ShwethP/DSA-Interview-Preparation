@@ -15,7 +15,7 @@ vector<int> nextGreaterElement(vector<int> &a)
         {
             st.pop();
         }
-        // if we find stack empty means no gteater element present in future else we use the top one as it is the next greater to current element
+        // if we find stack empty means no greater element present in future else we use the top one as it is the next greater to current element
         if (st.empty())
             r[i] = -1;
 

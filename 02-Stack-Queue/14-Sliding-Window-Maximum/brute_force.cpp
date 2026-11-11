@@ -21,7 +21,7 @@ int main()
 {
     vector<int> a = {1, 3, -1, -3, 5, 3, 6, 7};
     int k = 3;
-    vector<int> result = slidingWindowMax(a, k);
+    vector<int> result = slidingWindowMax(a, k); // 3 3 5 5 6 7
     for (int num : result)
     {
         cout << num << " ";

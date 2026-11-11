@@ -8,6 +8,7 @@ vector<int> slidingWindowMax(vector<int> &a, int k)
 
     vector<int> result;
     deque<int> dq;
+    // 1, 3, -1, -3, 5, 3, 6, 7
 
     for (int i = 0; i < n; i++)
     {

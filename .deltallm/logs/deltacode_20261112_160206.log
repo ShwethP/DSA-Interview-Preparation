@@ -1,0 +1,22 @@
+=== DeltaCode log started at 2026-11-12T16:02:06.049185 ===
+[2026-11-12 16:02:06.049] INFO: Application started, project_dir=C:\Users\Shweta.Patil\DSA-Interview-Preparation
+[2026-11-12 16:02:06.250] INFO: Pushing main screen (non-blocking)...
+[2026-11-12 16:02:14.282] INFO: Splash screen pushed
+[2026-11-12 16:02:14.605] INFO: Initializing agent...
+[2026-11-12 16:02:16.090] INFO: Pre-warming shell engine (background)
+[2026-11-12 16:02:21.430] WARNING: shell snapshot generator exited 127
+[2026-11-12 16:02:59.287] INFO: [MCP] Connecting to 'leed_advisor' (transport=http, url='http://deltallm.deltaww.com/mcp/LEED_Advisor/')
+[2026-11-12 16:03:07.409] INFO: Received session ID: 3fed157b26de47838c67e68751190ed4
+[2026-11-12 16:03:07.411] INFO: Negotiated protocol version: 2025-11-25
+[2026-11-12 16:03:08.004] INFO: [MCP] 'leed_advisor' connected — discovered 0 tool(s)
+[2026-11-12 16:03:08.197] INFO: SingleReactAgentRunner initialized successfully
+[2026-11-12 16:03:08.197] INFO: Agent service initialized successfully
+[2026-11-12 16:03:08.197] INFO: Initialized default agent: CoderAgent
+[2026-11-12 16:03:08.230] INFO: CoderAgent initialized successfully
+[2026-11-12 16:03:08.359] INFO: Skill discovery complete: 18 skill(s) found from 18 director(ies)
+[2026-11-12 16:03:08.552] INFO: AgentReady received, splash_active=True
+[2026-11-12 16:03:09.132] INFO: Prompt cache pre-warmed
+[2026-11-12 16:03:14.684] INFO: Splash done, agent ready — entering main screen
+[2026-11-12 16:03:14.684] INFO: Showing initial sessions modal
+[2026-11-12 16:03:14.826] INFO: flush_session: no active session (skipped)
+[2026-11-12 16:03:14.827] INFO: Sessions list opened: 0 session(s)

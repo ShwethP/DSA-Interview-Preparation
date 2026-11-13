@@ -50,12 +50,16 @@ int main()
     bool loop = hasCycle(first);
     cout << loop;
 
-    // Delete all nodes
-    while (first != nullptr)
+    // Break the cycle before deleting nodes
+    fifth->next = nullptr;
+
+    Node *temp = first;
+
+    while (temp != nullptr)
     {
-        Node *nextNode = first->next;
-        delete first;
-        first = nextNode;
+        Node *nextNode = temp->next;
+        delete temp;
+        temp = nextNode;
     }
 
     return 0;
